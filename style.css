@@ -1,0 +1,58 @@
+body {
+    margin: 0;
+    background-image: url(/assets/images/sky.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    overflow-x: hidden;
+  }
+  .container {
+    border: 2px solid black;
+    padding: 20px;
+    width: 100vw;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+  h1 {
+    margin: 0;
+    padding: 20px 0px;
+    text-align: center;
+    font-size: 40px;
+    color: blue;
+    text-shadow: lightskyblue;
+  }
+  .menu nav ul {
+    list-style: none;
+    font-size: 32px;
+    padding: 0;
+  }
+  li {
+    text-align: center;
+    padding: 8px;
+    width: 150px;
+    background: radial-gradient(circle, lightskyblue, transparent);
+    margin-bottom: 15px;
+    border-radius: 8px;
+  }
+  .assignment {
+    text-decoration: none;
+    color: whitesmoke;
+  }
+  
+  li:hover {
+    background: lightblue;
+    box-shadow: 0px 0px 30px rgb(19, 19, 23);
+  }
+  footer p {
+    margin: 0;
+    font-family: monospace;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 0 0 0;
+    font-size: 25px;
+    color: black;
+  }
+  
